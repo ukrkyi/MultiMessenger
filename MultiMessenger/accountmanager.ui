@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AccountManager</class>
+ <widget class="QWidget" name="AccountManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>386</width>
+    <height>235</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="8">
+    <widget class="QTreeWidget" name="accountsTree">
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContents</enum>
+     </property>
+     <column>
+      <property name="text">
+       <string>Акаунт</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Стан</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Facebook Messenger</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Droid Sans</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/logo/messenger</normaloff>:/logo/messenger</iconset>
+      </property>
+      <property name="text">
+       <string>Немає</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Droid Sans</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Google Hangouts</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Droid Sans</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/logo/hangouts</normaloff>:/logo/hangouts</iconset>
+      </property>
+      <property name="text">
+       <string>Немає</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Droid Sans</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QPushButton" name="disableButton">
+     <property name="text">
+      <string>Вимкнути</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="removeAccount">
+     <property name="text">
+      <string>Видалити</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="addAccount">
+     <property name="text">
+      <string>Додати</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="editAccount">
+     <property name="text">
+      <string>Змінити</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="enableButton">
+     <property name="text">
+      <string>Увімкнути</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

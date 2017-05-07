@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file alias="add">add_user.svg</file>
+        <file alias="settings">settings.svg</file>
+        <file alias="quit">quit.svg</file>
+        <file alias="delete">delete.svg</file>
+        <file alias="edit">edit.svg</file>
+        <file alias="user">new_user.png</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file alias="hangouts">logo_Hangouts.png</file>
+        <file alias="messenger">logo_Messenger.png</file>
+        <file alias="facebook">logo_Facebook.png</file>
+        <file alias="google">logo_Google.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
